@@ -1,0 +1,12 @@
+
+
+# 训练集图片和标签路径
+train: /root/autodl-tmp/WTDataset_txt_min_noise/images/train # 训练集图像的文件夹
+val: /root/autodl-tmp/WTDataset_txt_min_noise/images/val   # 验证集图像的文件夹
+test: /root/autodl-tmp/WTDataset_txt_min_noise/images/test  # 验证集图像的文件夹
+# number of classes
+nc: 16
+
+# class names
+names: ['Boat', 'Ship', 'Ball', 'Bridge', 'Rock', 'Person', 'Rubbish', 'Mast', 'Buoy', 'Platform', 'Harbor', 'Tree', 'Grass', 'Animal', 'Rowing', 'Motorboat']
+

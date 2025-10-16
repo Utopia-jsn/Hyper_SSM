@@ -1,0 +1,12 @@
+
+
+# 训练集图片和标签路径
+train: /root/autodl-tmp/WSODD USV_dataset/images/train # 训练集图像的文件夹
+val: /root/autodl-tmp/WSODD USV_dataset/images/val    # 验证集图像的文件夹
+test: /root/autodl-tmp/WSODD USV_dataset/images/test   # 验证集图像的文件夹
+# number of classes
+nc: 14
+
+# class names
+names: ['Boat', 'Ship', 'Ball', 'Bridge', 'Rock', 'Person', 'Rubbish', 'Mast', 'Buoy', 'Platform', 'Harbor', 'Tree', 'Grass', 'Animal']
+
